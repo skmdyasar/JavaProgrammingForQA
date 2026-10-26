@@ -6,6 +6,7 @@ public class P012_FindStringLength {
         System.out.println(str.length());
         int count = 0;
         for(char ch : str.toCharArray()){
+            System.out.println(ch);
             count ++;
         }
         System.out.println("The String length is "+count);

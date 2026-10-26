@@ -27,7 +27,7 @@ public class P006_FirstNonRepeatCharacter {
 
     public static void firstNonRepeatCharacter(String str) {
         // str = str.replaceAll(" ", "");
-        Map<Character, Integer> freq = new LinkedHashMap<Character, Integer>();
+        Map<Character, Integer> freq = new LinkedHashMap<>();
 
         for(char ch : str.toLowerCase().toCharArray()){
             if(freq.containsKey(ch)){
